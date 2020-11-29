@@ -39,6 +39,9 @@ with below command on his own pc
   <p>thats it , now mr y can easily find edata.xls file in his pc from below address</p>
 
     /var/www/html/uploads/file1.xls
+    
+<h3>other way</h3>
+<p>mr x run this file wssha.sh then mr y will access to data , if mr y has ssh connection</p>
 
 # Issues
   

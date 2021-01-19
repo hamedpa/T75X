@@ -1,0 +1,20 @@
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev            15004692       0  15004692   0% /dev
+tmpfs            3006776    1872   3004904   1% /run
+/dev/sda5       19992176 9987316   8966268  53% /
+tmpfs           15033864   12640  15021224   1% /dev/shm
+tmpfs               5120       4      5116   1% /run/lock
+tmpfs           15033864       0  15033864   0% /sys/fs/cgroup
+/dev/loop3         63616   63616         0 100% /snap/gtk-common-themes/1506
+/dev/loop0         56320   56320         0 100% /snap/core18/1880
+/dev/loop6         31872   31872         0 100% /snap/snapd/10707
+/dev/loop5         66432   66432         0 100% /snap/gtk-common-themes/1514
+/dev/loop7         52352   52352         0 100% /snap/snap-store/518
+/dev/loop1         56832   56832         0 100% /snap/core18/1944
+/dev/loop4        224256  224256         0 100% /snap/gnome-3-34-1804/66
+/dev/loop8         51072   51072         0 100% /snap/snap-store/467
+/dev/loop9         30720   30720         0 100% /snap/snapd/8542
+/dev/loop2        261760  261760         0 100% /snap/gnome-3-34-1804/36
+/dev/sda1         523248       4    523244   1% /boot/efi
+/dev/sdb1        7698432  170480   7527952   3% /media/vicky/NEW VOLUME
+tmpfs            3006772      36   3006736   1% /run/user/1000

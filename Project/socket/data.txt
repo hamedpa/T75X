@@ -1,0 +1,9 @@
+total 140K
+-rw-r--r--   1 vicky vicky  270 Jan 15 00:56 client.py
+-rw-r--r--   1 vicky vicky  55K Jan 15 00:56 tmp.xls
+-rw-r--r--   1 vicky vicky 4.2K Jan 15 01:28 game.py
+-rw-rw-r--   1 vicky vicky  57K Jan 15 10:21 package-lock.json
+-rw-r--r--   1 vicky vicky   88 Jan 15 10:28 run_Game.sh
+drwxrwxr-x 155 vicky vicky 4.0K Jan 15 12:11 node_modules
+-rw-rw-r--   1 vicky vicky  188 Jan 15 12:13 cal.txt
+-rw-rw-r--   1 vicky vicky    0 Jan 15 12:14 data.txt

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Covid19 Detection System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/normalize.min.css">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  img {
+  height: auto;
+  width: 100%;
+/* even more control with max-width */
+  max-width: 720px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+</style>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main>
+  <header id="app-header" class="app-header">
+
+    <div class="background-container">
+      <div id="background-back" class="background"></div>
+      <div id="background-front" class="background"></div>
+    </div>
+
+    <div class="header-content">
+      <div id="covid19-animation">
+        <div class="back--1"><img src="logos/1b.svg" alt=""></div>
+        <div class="back--2"><img src="logos/2b.svg" alt=""></div>
+        <div class="back--3"><img src="logos/3b.svg" alt=""></div>
+        <div class="back--4"><img src="logos/4b.svg" alt=""></div>
+        <div class="back--5"><img src="logos/5b.svg" alt=""></div>
+        <div class="back--6"><img src="logos/6b.svg" alt=""></div>
+        <div class="back--7"><img src="logos/7b.svg" alt=""></div>
+        <div class="back--8"><img src="logos/8b.svg" alt=""></div>
+        <div class="forg--1"><img src="logos/1f.svg" alt=""></div>
+        <div class="forg--2"><img src="logos/2f.svg" alt=""></div>
+        <div class="forg--3"><img src="logos/3f.svg" alt=""></div>
+        <div class="forg--4"><img src="logos/4f.svg" alt=""></div>
+        <div class="forg--5"><img src="logos/5f.svg" alt=""></div>
+      </div>
+      <div id="small-toolbar" class="app-toolbar">
+
+        
+        <div id="small-title" class="small-title">COVID 19 Detection with AI</div>     
+      
+      </div>
+
+      <div id="large-toolbar" class="app-toolbar tall">
+        <div id="large-title" class="large-title">COVID 19 Detection with AI</div>
+      </div>
+    </div>
+  </header>
+
+ 
+  <div class="card">
+
+    <div class="card-title">Upload Lungs X Ray Image Like Sample</div>
+    <img src="logos/sample.jpg" class="responsive center" height="50" width="50"/>
+  </br>
+
+  <center>
+    <form action="/uploadImage"
+	enctype="multipart/form-data" method="POST"> 
+	
+    <span>Upload Image from here:</span> 
+  </br>
+		<input type="file" name="mypic" required/> <br> 
+		<input type="submit" value="Send"> 
+	</form> 
+</center>
+  </div>
+
+ 
+  
+</main>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script><script  src="javascript/script.js"></script>
+  <script>
+    $('#mobile-nav').click(function(event) {
+      $('nav').toggleClass('active');
+    });
+    </script>
+
+</body>
+</html>
